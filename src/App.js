@@ -9,9 +9,9 @@ class App extends Component {
     return (
       <div className="App">
         <Header title="Weather or Hot"/>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        <Content>
+          <h4><a href="https://www.youtube.com/watch?v=7QLSRMoKKS0">Pretty much everywhere, it's gonna be hot!</a></h4>
+        </Content>
       </div>
     );
   }
